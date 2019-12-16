@@ -1,0 +1,445 @@
+/*=============================    Шапка   ============================*/
+@import "media.css";
+body h1 {
+  margin-top: 29px;
+  font-size: 36px;
+  text-align: center;
+  font-family: Clear Sans;
+  color: #3A4047;
+}
+header .logo {
+  margin-top: 17px;
+}
+header .text h4 {
+  margin-left: 64px;
+  margin-top: 19px;
+  color: #3A4047;
+  text-align: center;
+  font-size: 16px;
+}
+header .text h4 p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+header .number {
+  margin-top: 25px;
+}
+header .number a {
+  color: #3A4047;
+  margin-left: 45px;
+}
+header .icon .facbook {
+  margin-left: 42px;
+  margin-right: 10px;
+}
+header .icon span {
+  font-weight: bold;
+  color: #3A4047;
+}
+header .icon .basket {
+  margin-left: 35px;
+}
+header hr {
+  margin-bottom: 0px;
+}
+.dropbtn {
+  background-color: #ffff;
+  border-radius: 40%;
+  border: none;
+}
+.dropdoown {
+  position: relative;
+  display: inline-block;
+}
+.dropdoown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  width: 219px;
+  height: 177px;
+  -webkit-box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  margin-top: 10px;
+  margin-left: -180px;
+}
+.drop {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  transform: rotate(-45deg);
+  float: right;
+  margin-right: 15px;
+  margin-top: -10px;
+}
+.dropdoown-content a {
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 40px;
+  color: #3A4047;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+.dropdoown-content a img {
+  margin-bottom: 2px;
+  width: 25px;
+  height: 25px;
+  margin-right: 11px;
+}
+.dropdoown:hover .dropdoown-content {
+  display: block;
+  background: #FFFFFF;
+}
+/*=============================    Меню   ============================*/
+#menu {
+  margin-left: 20vw;
+}
+#menu a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #3A4047;
+  margin-right: 26px;
+  text-decoration: none;
+}
+#menu a:hover {
+  text-decoration: none;
+  color: #1AB0CE;
+}
+/*=============================   Банер   ============================*/
+#order {
+  background: url(../img/photo.png) no-repeat center top / cover;
+  box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 0.7);
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+#order .main_header h1 {
+  position: absolute;
+  top: 153px;
+  left: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 57px;
+  color: #ffffff;
+}
+#order .main_header h1 span {
+  margin-top: 120px;
+}
+#order .main_header h4 {
+  font-family: Clear Sans;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+#order .make_an_order {
+  text-align: center;
+}
+#order .make_an_order button {
+  margin-top: 383px;
+  text-align: center;
+  background: #1dcad6;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  width: 200px;
+  height: 48px;
+  cursor: pointer;
+}
+#order .make_an_order button:hover {
+  background: #086970;
+}
+#order .make_an_order button a {
+  color: #fff;
+  text-decoration: none;
+}
+#order .tele {
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  background: #1AB0CE;
+  border-radius: 50%;
+  text-decoration: none;
+}
+#order .tele a {
+  text-decoration: none;
+}
+#order .tele:hover {
+  background: red;
+}
+#order .tele h5 {
+  padding: 20px 15px;
+  color: #FFFFFF;
+  font-family: Clear Sans;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+}
+/*============================= Продукция     ============================*/
+section#types .card {
+  margin-top: 20px;
+  height: 310px;
+  border-radius: 0;
+}
+section#types .card img {
+  float: left;
+  margin-left: 29px;
+  margin-top: 25px;
+  width: 60px;
+  height: 69px;
+}
+section#types .card h4 p {
+  color: #3A4047;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 29px;
+}
+section#types .card h4 .buisness {
+  margin-right: 75px;
+}
+section#types .card ul {
+  margin-left: 80px;
+  text-align: left;
+  line-height: 35px;
+  margin-top: -34px;
+  list-style-type: none;
+}
+section#types .card ul span {
+  float: right;
+  margin-right: 25px;
+}
+/*============================= О нас    ============================*/
+#about_us .about h3 {
+  font-family: Clear Sans;
+  margin-top: 13px;
+  text-align: center;
+  font-size: 26px;
+  color: #3A4047;
+}
+#about_us .about p {
+  margin-top: 34px;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 13px;
+}
+/*============================= Новости    ============================*/
+#news .news .news_text {
+  margin-top: 20px;
+  height: 130px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+#news .news .news_text:hover {
+  border-top: 2px solid   #1AB0CE;
+  -webkit-box-shadow: 1px 7px 19px 0px #9e969e;
+  -moz-box-shadow: 1px 7px 19px 0px #9e969e;
+  box-shadow: 1px 7px 19px 0px #9e969e;
+  color: #1AB0CE;
+  text-decoration: underline;
+}
+#news .news p {
+  font-family: Clear Sans;
+  font-size: 14px;
+  color: #BEC7D1;
+}
+#news .news span {
+  font-family: Clear Sans;
+  font-size: 16px;
+}
+#news .btn_news button {
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  outline: none;
+  font-size: 15px;
+  border: 2px solid  #1AB0CE;
+  background: #fff;
+  width: 190px;
+  height: 32px;
+  display: block;
+}
+#news .btn_news button:hover {
+  background: #086970;
+}
+#news .btn_news button a {
+  color: #1AB0CE;
+  text-decoration: none;
+  font-family: Clear Sans;
+  font-size: 14px;
+}
+/*============================= Футер   ============================*/
+footer {
+  margin-top: 80px;
+  background: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 100%;
+  color: #3A4047;
+}
+footer .logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .logo svg {
+  margin-bottom: 20px;
+}
+footer .logo p {
+  margin-bottom: -1rem;
+}
+footer .text {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+footer .text .botton_text {
+  margin-left: 20px;
+  margin-top: 25px;
+  text-align: left;
+  line-height: 1.6;
+}
+footer .text .botton_text p {
+  font-size: 14px;
+  margin-top: 17px;
+  line-height: 1.6;
+}
+footer .number {
+  margin-top: 25px;
+}
+footer .number a {
+  margin-left: 45px;
+}
+footer .icon {
+  margin-top: 26px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  padding-left: 0px;
+}
+footer .icon span {
+  font-weight: bold;
+}
+footer .icon span .contact {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+footer .icon span .contact a {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  text-decoration: none;
+  color: #3A4047;
+}
+footer ul {
+  padding-left: 34px;
+  cursor: pointer;
+  margin-top: 20px;
+  list-style-type: none;
+  line-height: 2.4;
+}
+footer ul li {
+  text-decoration: underline;
+}
+footer ul li a {
+  color: #3A4047;
+}
+footer ul.contact {
+  margin-top: 7px;
+  text-align: right;
+  margin-right: 25px;
+}
+footer .facbook {
+  margin-right: 10px;
+}
+footer .glanec {
+  float: right;
+  margin-right: 15px;
+}
+.dropbtn {
+  background-color: #ffff;
+  border-radius: 40%;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  width: 219px;
+  height: 177px;
+  -webkit-box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 21px 37px 192px -21px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  margin-top: -210px;
+  margin-left: -180px;
+}
+.droop {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  transform: rotate(-45deg);
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.dropdown-content a {
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-left: 40px;
+  color: #3A4047;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+.dropdown-content a img {
+  margin-bottom: 2px;
+  width: 25px;
+  height: 25px;
+  margin-right: 11px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background: #FFFFFF;
+}
+/*============================= Перезвонить  ============================*/
+.tele {
+  float: right;
+  margin-top: 100px;
+  margin-right: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background: #1AB0CE;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.tele a {
+  text-decoration: none;
+}
+.tele:hover {
+  background: red;
+}
+.tele h5 {
+  padding: 20px 15px;
+  color: #FFFFFF;
+  font-family: Clear Sans;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+}
